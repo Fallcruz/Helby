@@ -37,8 +37,8 @@ export default function Navbar() {
                     </li>
                 </div>
                 <div className='flex lg:flex-row flex-row items-center gap-2'>
-                    <div class="relative">
-                        <div class="absolute inset-y-0 start-0 flex items-center ps-4">
+                    <div className="relative">
+                        <div className="absolute inset-y-0 start-0 flex items-center ps-4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="lg:w-4 w-3 lg:h-4 h-3 stroke-gray-primary">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                 <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />

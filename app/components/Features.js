@@ -1,8 +1,11 @@
+"use client"
 import Image from "next/image";
+import { useEffect } from 'react'
+import anime from 'animejs/lib/anime.es.js';
 
 export default function Features() {
     return (
-        <div className="lg:w-[80%] w-[100%] flex flex-col justify-center mx-auto pt-16 gap-12">
+        <div className="lg:w-[80%] w-[100%] flex flex-col justify-center mx-auto pt-16 gap-8">
             <div className="lg:w-[60%] w-[80%] flex flex-col text-center mx-auto gap-4">
                 <h1 className="lg:text-5xl text-3xl text-black-primary font-bold">Our unique features</h1>
                 <p className="lg:text-base text-sm">

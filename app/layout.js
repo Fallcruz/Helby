@@ -1,4 +1,5 @@
 import "./globals.css";
+// import anime from 'animejs/lib/anime.es.js';
 
 export const metadata = {
     title: "Helby",
